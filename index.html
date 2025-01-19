@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сложи продукты и получи скидку</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <div class="wrapper">
+
+        <header>
+          <h1 class="title"><strong>Сложи продукты в корзинку и получи скидку 20% 
+            <br> на первый заказ!</strong></h1>
+        </header>
+
+        <div class="shelf">
+          <img src="/img/shelf.png" alt="Полка с продуктами" draggable="false">
+
+          <div class="section section-one">
+            <img class="product wine" src="/img/wine.png" alt="Вино" draggable="true">
+            <img class="product milk" src="/img/milk.png" alt="Молоко" draggable="true">
+            <img class="product jam" src="/img/jam.png" alt="Варенье" draggable="true">
+            <img class="product cheese" src="/img/cheese.png" alt="Сыр" draggable="true">
+          </div>
+    
+          <div class="section section-two">
+            <img class="product meat" src="/img/meat.png" alt="Мясо" draggable="true">
+            <img class="product chicken" src="/img/chicken.png" alt="Курица" draggable="true">
+            <img class="product chips" src="/img/chips.png" alt="Чипсы" draggable="true">
+          </div>
+    
+          <div class="section section-three">
+            <img class="product pineapple" src="/img/pineapple.png" alt="Ананас" draggable="true">
+            <img class="product banana" src="/img/banana.png" alt="Банан" draggable="true">
+            <img class="product apple" src="/img/apple.png" alt="Яблоко" draggable="true">
+            <img class="product salad" src="/img/salad.png" alt="Салат" draggable="true">
+          </div>
+    
+          <div class="basket-one"></div>
+          <div class="basket-two"></div>
+          <div class="basket-three"></div>
+    
+          <div class="basket">
+            <img src="/img/basket.png" alt="Корзина" draggable="false">
+            <button class="btn-pay">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Оплатить корзину
+            </button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
